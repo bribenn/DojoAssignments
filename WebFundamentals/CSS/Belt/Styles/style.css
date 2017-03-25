@@ -1,0 +1,181 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+.container {
+	padding: 0px 265px 0px 265px;
+}
+
+.body {
+	padding: 15px 15px 15px 15px;
+	border: 10px solid #062134;
+	border-bottom: none;
+}
+
+li {
+	display: inline-block;
+	line-height: 75px;
+	padding-left: 47px;
+}
+
+/*Home link in header*/
+.header li:nth-child(1) a {
+	color: #39729b;
+}
+
+.header *{
+	display: inline-block;
+}
+
+.header h1 {
+	display: inline-block;
+	line-height: 60px;
+	padding-right: 25px;
+}
+
+.header {
+	background-color: #062134;
+	height: 50px;
+	padding: 20px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header span {
+	color: #1b99e8;
+}
+
+.header  {
+	color: white;
+}
+
+.column {
+	display: inline-block;
+	width: 273px;
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+.main-head {
+	background-color: #1468a8;
+	color: white;
+	height: 200px;
+	padding: 15px;
+
+}
+
+.main-head img {
+	background-color: white;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.main-head h3 {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 35px;
+	font-size: 22px;
+}
+
+.main-head input {
+	background: linear-gradient(to bottom, #45abec 50%, #1993de 51%);
+	height: 35px;
+    width: 140px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 45px
+}
+
+h4 {
+	font-size: 19px;
+	letter-spacing: .5px;
+	color: #062134;
+	height: 50px;
+    line-height: 50px;
+}
+
+.body p {
+	font-size: 11px;
+	margin-top: 15px;
+}
+
+/*Center column div*/
+.body div:nth-child(3) {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*Testimonial Quote Box*/
+ul:nth-child(3) {
+	background-color: #daedff;
+	border: 10px solid #062134;
+	border-top: 2px solid #062134;
+	text-align: center;
+	height: 50px;
+	font-size: 11px;
+}
+
+/*Footer Links*/
+ul:nth-child(3) a {
+	color: #3d759d;
+}
+
+/*Footer home link*/
+li:nth-child(1) a {
+	color: #9fccee;
+}
+
+/*Learn More link*/
+a:nth-child(5) {
+	color: #1993de;
+	font-size: 14px;
+}
+
+/*Footer links*/
+ul:nth-child(3) li {
+	line-height: 50px;
+}
+
+textarea {
+	border: none;
+    margin: 0px;
+    padding: 25px;
+    width: 222px;
+    height: 60px;
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+    background-color: #daedff;
+    resize: none;
+    margin-bottom: -6px;
+    outline: none;
+}
+
+#middle-p {
+	margin-top: 50px;
+}
+
+/*To make the comment box*/
+#triangle {
+	color: #daedff;
+	font-size: 16px;
+    display: inline-block;
+    margin-top: -76px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
