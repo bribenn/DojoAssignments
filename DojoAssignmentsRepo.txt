@@ -1,0 +1,158 @@
+Last login: Fri Mar 24 08:29:36 on ttys000
+
+ 2017-03-25 13:56:18 ⌚  |2.3.3| Brianas-MacBook-Air in ~
+○ → cd desktop
+
+ 2017-03-25 13:56:34 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop
+○ → cd dojoAssignments
+
+ 2017-03-25 13:56:45 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+○ → git init
+Initialized empty Git repository in /Users/brianabennett/Desktop/dojoAssignments/.git/
+
+ 2017-03-25 13:56:53 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ?:6 ✗| → git add .
+
+ 2017-03-25 13:57:16 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master S:39 ✗| → git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   MEAN/about.txt
+	new file:   Python/about.txt
+	new file:   Ruby/about.txt
+	new file:   WebFundamentals/.DS_Store
+	new file:   WebFundamentals/CSS/.DS_Store
+	new file:   WebFundamentals/CSS/Belt 2/.DS_Store
+	new file:   WebFundamentals/CSS/Belt 2/Styles/style.css
+	new file:   WebFundamentals/CSS/Belt 2/images/.DS_Store
+	new file:   WebFundamentals/CSS/Belt 2/images/building.png
+	new file:   WebFundamentals/CSS/Belt 2/images/icon.png
+	new file:   WebFundamentals/CSS/Belt 2/images/main_img.png
+	new file:   WebFundamentals/CSS/Belt 2/index.html
+	new file:   WebFundamentals/CSS/Belt.zip
+	new file:   WebFundamentals/CSS/Belt/.DS_Store
+	new file:   WebFundamentals/CSS/Belt/Styles/style.css
+	new file:   WebFundamentals/CSS/Belt/images/.DS_Store
+	new file:   WebFundamentals/CSS/Belt/images/building.png
+	new file:   WebFundamentals/CSS/Belt/images/icon.png
+	new file:   WebFundamentals/CSS/Belt/images/main_img.png
+	new file:   WebFundamentals/CSS/Belt/index.html
+	new file:   WebFundamentals/CSS/TheInternet/.DS_Store
+	new file:   WebFundamentals/CSS/TheInternet/Styles/style.css
+	new file:   WebFundamentals/CSS/TheInternet/images/.DS_Store
+	new file:   WebFundamentals/CSS/TheInternet/images/ad_background.png
+	new file:   WebFundamentals/CSS/TheInternet/images/client_server.jpg
+	new file:   WebFundamentals/CSS/TheInternet/images/globe.png
+	new file:   WebFundamentals/CSS/TheInternet/images/home.png
+	new file:   WebFundamentals/CSS/TheInternet/images/html.png
+	new file:   WebFundamentals/CSS/TheInternet/images/ninja.png
+	new file:   WebFundamentals/CSS/TheInternet/images/phone.png
+	new file:   WebFundamentals/CSS/TheInternet/index.html
+	new file:   WebFundamentals/CSS/about.txt
+	new file:   WebFundamentals/Git/about.txt
+	new file:   WebFundamentals/HTML/about.txt
+	new file:   WebFundamentals/HTML/indentation.html
+	new file:   WebFundamentals/Javascript/about.txt
+	new file:   WebFundamentals/about.txt
+	new file:   assignments.txt
+
+
+ 2017-03-25 13:57:20 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master S:39 ✗| → git commit -m "initial commit"
+[master (root-commit) 4eec60e] initial commit
+ 39 files changed, 671 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 MEAN/about.txt
+ create mode 100644 Python/about.txt
+ create mode 100644 Ruby/about.txt
+ create mode 100644 WebFundamentals/.DS_Store
+ create mode 100644 WebFundamentals/CSS/.DS_Store
+ create mode 100644 WebFundamentals/CSS/Belt 2/.DS_Store
+ create mode 100644 WebFundamentals/CSS/Belt 2/Styles/style.css
+ create mode 100644 WebFundamentals/CSS/Belt 2/images/.DS_Store
+ create mode 100755 WebFundamentals/CSS/Belt 2/images/building.png
+ create mode 100755 WebFundamentals/CSS/Belt 2/images/icon.png
+ create mode 100755 WebFundamentals/CSS/Belt 2/images/main_img.png
+ create mode 100644 WebFundamentals/CSS/Belt 2/index.html
+ create mode 100644 WebFundamentals/CSS/Belt.zip
+ create mode 100644 WebFundamentals/CSS/Belt/.DS_Store
+ create mode 100644 WebFundamentals/CSS/Belt/Styles/style.css
+ create mode 100644 WebFundamentals/CSS/Belt/images/.DS_Store
+ create mode 100755 WebFundamentals/CSS/Belt/images/building.png
+ create mode 100755 WebFundamentals/CSS/Belt/images/icon.png
+ create mode 100755 WebFundamentals/CSS/Belt/images/main_img.png
+ create mode 100644 WebFundamentals/CSS/Belt/index.html
+ create mode 100644 WebFundamentals/CSS/TheInternet/.DS_Store
+ create mode 100644 WebFundamentals/CSS/TheInternet/Styles/style.css
+ create mode 100644 WebFundamentals/CSS/TheInternet/images/.DS_Store
+ create mode 100644 WebFundamentals/CSS/TheInternet/images/ad_background.png
+ create mode 100644 WebFundamentals/CSS/TheInternet/images/client_server.jpg
+ create mode 100644 WebFundamentals/CSS/TheInternet/images/globe.png
+ create mode 100644 WebFundamentals/CSS/TheInternet/images/home.png
+ create mode 100644 WebFundamentals/CSS/TheInternet/images/html.png
+ create mode 100644 WebFundamentals/CSS/TheInternet/images/ninja.png
+ create mode 100755 WebFundamentals/CSS/TheInternet/images/phone.png
+ create mode 100644 WebFundamentals/CSS/TheInternet/index.html
+ create mode 100644 WebFundamentals/CSS/about.txt
+ create mode 100644 WebFundamentals/Git/about.txt
+ create mode 100644 WebFundamentals/HTML/about.txt
+ create mode 100644 WebFundamentals/HTML/indentation.html
+ create mode 100644 WebFundamentals/Javascript/about.txt
+ create mode 100644 WebFundamentals/about.txt
+ create mode 100644 assignments.txt
+
+ 2017-03-25 13:58:05 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ✓| → git remote add origin https://github.com/bribenn/DojoAssignments.git
+
+ 2017-03-25 14:01:56 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ✓| → git push -u origin master
+Counting objects: 37, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (33/33), done.
+Writing objects: 100% (37/37), 1.35 MiB | 741.00 KiB/s, done.
+Total 37 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/bribenn/DojoAssignments.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+ 2017-03-25 14:02:05 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ✓| → touch readme.txt
+
+ 2017-03-25 14:13:25 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ?:1 ✗| → vi readme.txt 
+
+ 2017-03-25 14:14:35 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ?:1 ✗| → git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ 2017-03-25 14:14:40 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ?:1 ✗| → git add .
+
+ 2017-03-25 14:14:42 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master S:1 ✗| → git commit -m "added readme"
+[master 53c33cc] added readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+
+ 2017-03-25 14:14:58 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ↑1 ✓| → touch DojoAssignmentsRepo.txt
+
+ 2017-03-25 14:16:11 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ↑1 ?:1 ✗| → vi DojoAssignmentsRepo.txt 
+
+ 2017-03-25 14:16:32 ⌚  |2.3.3| Brianas-MacBook-Air in ~/desktop/dojoAssignments
+± |master ↑1 ?:1 ✗| → 
