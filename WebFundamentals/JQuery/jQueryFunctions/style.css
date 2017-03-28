@@ -1,0 +1,141 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Griffy', cursive;
+}
+
+body {
+	background-color: 	#f4f49f;
+	font-family: 'Griffy', cursive;
+	color: #a559ac;
+	padding: 150px;
+}
+
+button {
+	width: 125px;
+	height: 75px;
+	border-radius: 5px;
+	background-color: #ffb2cb;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+	display: inline-block;
+	box-shadow: 3px 2px #ed458d;
+	margin: 100px 50px 0px 150px;
+	vertical-align: top;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+}
+
+p {
+	display: inline-block;
+	width: 100px;
+    vertical-align: top;
+    margin-left: 25px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+
+div {
+	border-bottom: 5px solid #8edafa;
+	height: 500px;
+}
+
+img {
+	display: inline-block;
+	margin-left: 245px;
+	height: 375px;
+}
+
+.click_start {
+	height: 350px;
+}
+
+#show img, h4{
+	display: none;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+img.toggle {
+	margin-left: 225px;
+}
+
+
+h3.toggle {
+	display: inline-block;
+}
+
+.slideDown {
+	display: none;
+}
+
+.slideToggle {
+	/*visibility: hidden;*/
+}
+
+.fadeIn {
+	display: none;
+}
+
+.party {
+	background-image: url(./images/partyhat.png);
+	height: 500px;
+	background-repeat: no-repeat;
+}
+
+.group {
+	height: 635px;
+}
+
+#after img {
+	margin-left: 100px;
+	height: 260px;
+}
+
+#html {
+	height: 456px;
+	padding-bottom: 0px;
+}
+
+#html img {
+	margin-left: 9px;
+}
+
+#val input {
+	height: 40px;
+	width: 1137px;
+	display: block;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.canva_pony {
+	margin-left: 0px;
+    margin-top: 25px;
+    height: 150px;
+    width: 1138px;
+}
+
+.friendship {
+	font-size: 50px;
+	text-align: center;
+	line-height: 505px;
+	color: #8edafa;
+}
+
+#data img {
+	margin-left: 150px;
+}
+
+.footer {
+	margin: 50px 0px 50px 0px;
+	display: inline-block;
+}

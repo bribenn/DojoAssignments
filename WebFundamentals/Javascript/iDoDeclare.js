@@ -1,0 +1,21 @@
+var smallNumber = 1;
+var bigNumber = 19;
+var smallerNumber = -345;
+var biggerNumber = 19305.95;
+var string1 = "Briana";
+var string2 = "Bennett";
+var string3 = "hello";
+var happy = true;
+var sad = false;
+var empty;
+
+console.log("a small number is", smallNumber);
+console.log("a big number is", bigNumber);
+console.log("a smaller number is", smallerNumber);
+console.log("a bigger number is", biggerNumber);
+console.log("My first name is", string1);
+console.log("My last name is", string2);
+console.log(string3, "a small number is");
+console.log("I am happy:", happy);
+console.log("I am sad:", sad);
+console.log("this variable is", empty);
