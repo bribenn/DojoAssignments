@@ -24,7 +24,7 @@
 
 
                 $("div.contacts_container").append(card);
-                // $(h3).hide();
+              
 
                 // trying set description into data of .card div
                 // $(this).data('d', description);
@@ -35,8 +35,8 @@
                     // $(this).data('d', description);
                     // console.log($('.card').data);
                     // $(this).data("d");
-                    $(this).siblings("h1, button").show();
-                    $(this).siblings("h3").hide();
+                    $(this).siblings("h1, button").hide();
+                    $(this).siblings("h3").removeClass("description");
 
                 });
 
