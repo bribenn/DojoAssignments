@@ -1,0 +1,66 @@
+<html>
+   <head>
+       <title>Contact Cards</title>
+       <link rel="stylesheet" type="text/css" href="styles.css"> 
+       <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+       <script type="text/javascript">
+          
+          $(document).ready(function(){
+
+             $(document).on("submit", "form", function(){
+
+                var firstName = $("input[name='firstName']").val();
+                console.log(firstName);
+                var lastName = $("input[name='lastName']").val();
+                console.log(lastName);
+                var description = $("textarea").val();
+                console.log(description);
+                var card =  "<div class = 'card'>" + 
+                              "<h1>" +firstName +" "+ lastName + "</h1>" + 
+                              "<h3 class=description>" +description+ "</h3>" +
+                              "<button class= 'indiv'>Click for Description</button>" + 
+                            "</div>";
+                console.log(card);
+
+
+                $("div.contacts_container").append(card);
+                // $(h3).hide();
+
+                // trying set description into data of .card div
+                // $(this).data('d', description);
+                // console.log($('.card').data);
+                // var d1 = $('.card').data("d");
+
+                  $(".contacts_container").on("click", "button", function(){
+                    // $(this).data('d', description);
+                    // console.log($('.card').data);
+                    // $(this).data("d");
+                    $(this).siblings("h1, button").show();
+                    $(this).siblings("h3").hide();
+
+                });
+
+                  // Wish I could make those toggle, damn it!
+
+                $("input[name='firstName']").val('');
+                $("input[name='lastName']").val('');
+                $("textarea").val('');
+                return false;
+
+             });
+
+         
+             
+          });
+      </script>
+   </head>
+   <body>
+      <form>
+        <label>First Name:<input type="text" name="firstName"></label>
+        <label>Last Name:<input type="text" name="lastName"></label>
+        <label>Description:</label><textarea placeholder="Enter Description"></textarea>
+        <label><input class = "submit" type="submit" name="Add User"></label>
+      </form>
+      <div class="contacts_container"></div>
+   </body>
+</html>

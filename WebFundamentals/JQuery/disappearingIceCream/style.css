@@ -1,0 +1,35 @@
+img {
+	width: 250px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.hidden {
+	visibility: hidden;
+	display: inline-block;
+}
+
+body {
+	margin: 180px;
+}
+
+html {
+	background-color: #f4f49f;
+}
+
+h1 {
+	color: #d3a4d1;
+	font-size: 50px;
+	text-align: center;
+}
+
+button {
+	height: 50px;
+	width: 100px;
+	background: linear-gradient(#d3a4d1, #a154aa);
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	display: block;
+	margin: auto;
+}

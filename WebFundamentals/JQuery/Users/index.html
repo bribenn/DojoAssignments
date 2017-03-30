@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Users</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(document).on("submit", "form", function(){
+				
+				var firstName = $("input[name='First Name']").val();
+				console.log(firstName);
+				var lastName = $("input[name='Last Name']").val();
+				console.log(lastName);
+				var email = $("input[name='Email Address']").val();
+				console.log(email);
+				var contact = $("input[name='Contact #']").val();
+				console.log(contact);
+
+
+
+				$("tbody").append("<tr><td>"+firstName+"</td>" + 
+									"<td>"+lastName+"</td>" +
+									"<td>"+email+"</td>" +
+									"<td>"+contact+"</td></tr>");
+
+
+				$("input[name='First Name']").val('');
+				$("input[name='Last Name']").val('');
+				$("input[name='Email Address']").val('');
+				$("input[name='Contact #']").val('')
+
+				return false;
+
+			});
+
+
+
+		});
+		
+	</script>
+</head>
+<body>
+	<table>
+		<tbody>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email Address</th>
+				<th>Contact #</th>
+			</tr>
+		</tbody>
+	</table>
+	<h1>Add User</h1>
+	<form>
+		<label>First Name<input type="text" name="First Name"></label>
+		<label>Last Name<input type="text" name="Last Name"></label>
+		<label>Email<input type="text" name="Email Address"></label>
+		<label>Contact<input type="text" name="Contact #"></label>
+		<label><input class = "submit" type="submit" name="Add User"></label>
+	</form>
+
+</body>
+</html>
