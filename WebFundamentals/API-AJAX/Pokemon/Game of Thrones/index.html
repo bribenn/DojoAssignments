@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game of Thrones</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function() {
+
+			var stark_num = "362", 
+			targaryen_num = "378",
+			baratheon_num = "15",
+			lannister_num = "230",
+			house_url = "http://www.anapioficeandfire.com/api/houses/"
+			 
+			$("img").click(function(){
+				if($(this).attr("id") == "baratheon"){
+					url = house_url + baratheon_num;
+				} 
+				if($(this).attr("id") == "targaryen"){
+					url = house_url + targaryen_num;
+				}
+				if($(this).attr("id") == "lannister"){
+					url = house_url + lannister_num;
+				}
+				if($(this).attr("id") == "stark"){
+					url = house_url + stark_num;
+				}
+
+				console.log(url);
+					
+				$.get(url, function(data){
+					console.log(data);
+					var name = data.name,
+					words = data.words,
+					titles = data.titles.join(', ');
+					console.log(titles);
+
+					$(".house_details").html("<p><span>Name:</span> " + name + "</p><p><span>Words:</span> " + words + "</p><p><span>Titles:</span> " + titles + "</p>");
+
+				} , "json")
+			});
+		});
+		
+	</script>
+</head>
+<body>
+	<div class="container">
+		<img id = "baratheon" src="gameofthrones/baratheon.png">
+		<img id = "lannister" src="gameofthrones/lannister.jpg">
+		<img id = "stark" src="gameofthrones/stark.jpg">
+		<img id = "targaryen" src="gameofthrones/targaryen.jpg">
+		<h3>House Details</h3>
+		
+		<div class="house_details">
+			
+		</div>
+	</div>
+</body>
+</html>
